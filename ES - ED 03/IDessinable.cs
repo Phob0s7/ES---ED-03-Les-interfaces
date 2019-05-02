@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace ES___ED_03
 {
-    class Program
+    interface IDessinable
     {
-        static void Main(string[] args)
-        {
-            Eclaireur eclaireur = new Eclaireur(5,7);
-
-
-        }
+        void Dessinable();
     }
 }

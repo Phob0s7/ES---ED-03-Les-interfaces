@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Eclaireur.cs" />
     <Compile Include="Fantassin.cs" />
+    <Compile Include="IDessinable.cs" />
+    <Compile Include="IDéplaçable.cs" />
     <Compile Include="Jeep.cs" />
     <Compile Include="MineExplosive.cs" />
     <Compile Include="Pièce.cs" />

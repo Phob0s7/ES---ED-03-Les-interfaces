@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace ES___ED_03
 {
-    interface IDessinable
-    {
-        void Dessinable();
-    }
+	/// <summary>
+	/// Création de l'interface IDessinale
+	/// </summary>
+	interface IDessinable
+	{
+		/// <summary>
+		/// Méthode de l'interface
+		/// </summary>
+		void Dessinable();
+	}
 }

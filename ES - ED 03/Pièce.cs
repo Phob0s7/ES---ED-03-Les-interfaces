@@ -6,15 +6,22 @@ using System.Threading.Tasks;
 
 namespace ES___ED_03
 {
-    class Pièce
-    {
-        protected int posX = 0;
-        protected int posY = 0;
-
-        public Pièce(int posX, int posY)
-        {
-            this.posX = posX;
-            this.posY = posY;
-        }
-    }
+	/// <summary>
+	/// Classe qui repérsente une pièce
+	/// </summary>
+	class Pièce
+	{
+		protected int posX = 0;
+		protected int posY = 0;
+		/// <summary>
+		/// Constructeur de la classe Pièce
+		/// </summary>
+		/// <param name="posX">Position X</param>
+		/// <param name="posY">Position Y</param>
+		public Pièce(int posX, int posY)
+		{
+			this.posX = posX;
+			this.posY = posY;
+		}
+	}
 }

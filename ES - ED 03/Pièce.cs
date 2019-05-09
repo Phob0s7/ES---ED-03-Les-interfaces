@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ES___ED_03
 {
-	/// <summary>
-	/// Classe qui repérsente une pièce
-	/// </summary>
-	class Pièce
+    /// <summary>
+    /// Classe qui repérsente une pièce
+    /// </summary>
+    abstract class Pièce : IDessinable
 	{
 		protected int posX = 0;
 		protected int posY = 0;
@@ -23,5 +23,7 @@ namespace ES___ED_03
 			this.posX = posX;
 			this.posY = posY;
 		}
-	}
+
+        public abstract void Dessiner();
+    }
 }

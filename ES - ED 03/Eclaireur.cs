@@ -9,7 +9,7 @@ namespace ES___ED_03
 	/// <summary>
 	/// Classe qui représente un éclaireur
 	/// </summary>
-	class Eclaireur : Pièce, IDéplaçable, IDessinable
+	class Eclaireur : Pièce, IDéplaçable
 	{
 		/// <summary>
 		/// Constructeur de la classe Eclaireur
@@ -25,7 +25,7 @@ namespace ES___ED_03
 		/// <summary>
 		/// Permet de dessiner l'éclaireur
 		/// </summary>
-		public void Dessinable()
+		public override void Dessiner()
 		{
 			Console.WriteLine(" o");
 			Console.WriteLine("-+-");

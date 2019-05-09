@@ -9,7 +9,7 @@ namespace ES___ED_03
 	/// <summary>
 	/// Classe qui représente un fantassin
 	/// </summary>
-	class Fantassin : Pièce, IDéplaçable, IDessinable
+	class Fantassin : Pièce, IDéplaçable
 	{   /// <summary>
 		/// Constructeur de la classe Fantassin
 		/// </summary>
@@ -24,7 +24,7 @@ namespace ES___ED_03
 		/// <summary>
 		/// Permet de dessiner un fantassin
 		/// </summary>
-		public void Dessinable()
+		public override void Dessiner()
 		{
 			Console.WriteLine(" o  |");
 			Console.WriteLine("-+- |");

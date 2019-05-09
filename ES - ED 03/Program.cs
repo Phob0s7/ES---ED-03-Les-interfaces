@@ -32,6 +32,17 @@ namespace ES___ED_03
 
 			foreach (Pièce pièce in Pièces)
 			{
+                pièce.Dessiner();
+
+                if (pièce is IDéplaçable)
+                {
+                    (pièce as IDéplaçable).SeDéplacer();
+                } else
+                {
+                    Console.WriteLine("Cette pièce n'est pas déplaçable.");
+                }
+
+                /*
 				éclaireur.Dessinable();
 				fantassin.Dessinable();
 				jeep.Dessinable();
@@ -39,6 +50,7 @@ namespace ES___ED_03
 				éclaireur.SeDéplacer();
 				fantassin.SeDéplacer();
 				jeep.SeDéplacer();
+                */
 			}
 		}
 	}

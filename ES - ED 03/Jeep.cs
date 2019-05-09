@@ -9,7 +9,7 @@ namespace ES___ED_03
 	/// <summary>
 	/// Classe qui représente une jeep
 	/// </summary>
-	class Jeep : Pièce, IDéplaçable, IDessinable
+	class Jeep : Pièce, IDéplaçable
 	{
 		/// <summary>
 		/// Constructeur de la classe Jeep
@@ -24,7 +24,7 @@ namespace ES___ED_03
 		/// <summary>
 		/// Permet de dessiner une jeep
 		/// </summary>
-		public void Dessinable()
+		public override void Dessiner()
 		{
 			Console.WriteLine("____");
 			Console.WriteLine("|  |_");

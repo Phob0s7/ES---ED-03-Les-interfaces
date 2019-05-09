@@ -14,6 +14,6 @@ namespace ES___ED_03
 		/// <summary>
 		/// Méthode de l'interface
 		/// </summary>
-		void Dessinable();
+		void Dessiner();
 	}
 }

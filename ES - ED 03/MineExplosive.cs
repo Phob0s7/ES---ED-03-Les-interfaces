@@ -9,7 +9,7 @@ namespace ES___ED_03
 	/// <summary>
 	/// Classe qui représente une mine explosive
 	/// </summary>
-    class MineExplosive : Pièce, IDessinable
+    class MineExplosive : Pièce
     {
 		/// <summary>
 		/// Constructeur de la classe MineExplosive
@@ -25,7 +25,7 @@ namespace ES___ED_03
 		/// <summary>
 		/// Permet de dessiner une mine explosive
 		/// </summary>
-        public void Dessinable()
+        public override void Dessiner()
         {
 			Console.WriteLine("*");
         }
